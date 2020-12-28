@@ -677,7 +677,7 @@ input.input100 {
 
 @media (max-width: 576px) {
     .contact100-form {
-        padding: 25px 15px 55px 15px;
+        padding: 25px 15px 100px 15px;
     }
 }
 
@@ -798,6 +798,9 @@ input.input100 {
         padding: 10px 70px;
     }
 
+    .icon-bar {
+        display: block;
+    }
    
 }
 
@@ -909,7 +912,7 @@ input.input100 {
 }
 
 .form-container {
-    margin-top: 40%;
+    margin-top: 30%;
     margin-bottom: 80px;
 }
 
@@ -1066,6 +1069,7 @@ input:-webkit-autofill:active  {
 #main-menu {
     text-align: right;
     padding: 0;
+    background-color: #fff;
 }
 
 #main-menu ul {
@@ -1104,6 +1108,16 @@ body {
 .or {
     text-align: center;
     margin: 10px;
+}
+
+
+@media (min-width: 576px) {
+    
+
+    .icon-bar {
+        display: none !important;
+    }
+   
 }@charset "UTF-8"; /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -31779,7 +31793,7 @@ aside.sidebar.full-style {
         margin-top: 15px;
         width: 35%;
         margin-bottom: 12px;
-        border-radius: 100%;
+        /* border-radius: 100%; */
     }
     footer .widget-title h4::before {
         width: 10%;
@@ -31787,7 +31801,7 @@ aside.sidebar.full-style {
 
     .timeline-info {
         height: 100%;
-        padding-left: 20px;
+        /* padding-left: 20px; */
     }
 
     .user-avatar {
